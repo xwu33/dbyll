@@ -360,3 +360,8 @@ Andrew->>China: I am good thanks!
 ```
 
 ### End
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
