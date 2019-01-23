@@ -1,6 +1,6 @@
 ---
 layout: post
-title: divide and conquer 
+title: divide and conquer
 categories: [algorithms]
 tags: [algorithms]
 fullview: true
