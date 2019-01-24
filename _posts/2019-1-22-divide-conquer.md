@@ -3,7 +3,7 @@ layout: post
 title: divide and conquer
 categories: [algorithms]
 tags: [algorithms]
-fullview: true
+fullview: false
 comments: false
 ---
 
