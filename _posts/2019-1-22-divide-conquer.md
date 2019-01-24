@@ -7,7 +7,7 @@ fullview: false
 comments: false
 ---
 
-### Format of Divide-and-Conquer algorithms
+#### Format of Divide-and-Conquer algorithms
 
 - Divide: Split the array or list into smaller pieces
 - Conquer: Solve the same problem recursively on smaller pieces
