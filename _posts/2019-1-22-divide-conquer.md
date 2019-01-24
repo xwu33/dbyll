@@ -18,4 +18,5 @@ comments: false
 	T(n) = θ(n^k) if logb a < k (or a < b^k)
 	T(n) = θ(n^k lg n) if logb a = k (or a = b^k)
 	T(n) = θ(n^logb a) if logb a > k (or a > b^k)
-######[redirect to class materia](http://cs470.cs.ua.edu/fall2017/schedule.htm)
+
+[redirect to class materia](http://cs470.cs.ua.edu/fall2017/schedule.htm)
