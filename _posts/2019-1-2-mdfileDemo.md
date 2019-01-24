@@ -1,12 +1,3 @@
----
-layout: post
-title: All MarkDown File format Demo
-categories: [demo]
-tags: [demo]
-fullview: false
-comments: false
----
-
 ## [## MD file editor](https://pandao.github.io/editor.md/)
 
 
@@ -361,3 +352,12 @@ Andrew->>China: I am good thanks!
 ```
 
 ### End
+
+---
+layout: post
+title: All MarkDown File format Demo
+categories: [demo]
+tags: [demo]
+fullview: false
+comments: false
+---
