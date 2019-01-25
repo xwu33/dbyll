@@ -1,12 +1,12 @@
 ---
 layout: post
-title: divide and conquer
+title: resume for review
 categories: [algorithms]
 tags: [algorithms]
 fullview: false
 comments: false
 ---
-# resumeforReview 
+
 # SHENGTING CAO
 
 (205) 393 - **9459 •** scao7@crimson.ua.edu
