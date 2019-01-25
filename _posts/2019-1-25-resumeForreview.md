@@ -1,8 +1,8 @@
 ---
 layout: post
 title: resume for review
-categories: [algorithms]
-tags: [algorithms]
+categories: [resume,job]
+tags: [resume]
 fullview: false
 comments: false
 ---
