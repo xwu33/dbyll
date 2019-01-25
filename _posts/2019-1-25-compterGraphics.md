@@ -3,7 +3,7 @@ layout: post
 title: webGL for Koch snowflake
 categories: [algorithms]
 tags: [grapics]
-fullview: ture
+fullview: false
 comments: false
 ---
 #### divide line into koch line
