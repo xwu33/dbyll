@@ -18,6 +18,7 @@ This project is a basic divide and recurrent project in Computer Graphics. I use
       var f = vec2(x1,y1);
       return f;
     }
+
 #### divide line into koch line and call the function recursively
     function divideLine(a, b,count)
     {
@@ -41,13 +42,14 @@ This project is a basic divide and recurrent project in Computer Graphics. I use
       }
         return f;
     }
+    
 #### to draw a snowfalke by calling the divideLine function three times
     function snowflake(a,b,c,count){
         divideLine(a,b,count);
         divideLine(b,c,count);
         divideLine(c,a,count);
     }
-    
+
 [Project Link](https://scao7.github.io/cs435/project1/snowflake.html)
 
 more coming!
