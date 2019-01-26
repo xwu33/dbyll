@@ -10,7 +10,7 @@ This project is a basic divide and recurrent project in Computer Graphics
 I use webGL and Javascript as the developing tool.
 #### calculate the point for the Koch lines
 I just rotate the line to get the point position
-
+````javascript
 function calculatePoint(center, p){
   var angleInDegrees = 60;
   var angleInRadians = angleInDegrees * Math.PI / 180;
