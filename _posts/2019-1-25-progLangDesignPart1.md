@@ -8,7 +8,7 @@ comments: false
 ---
 
 #### Programming Language Grammars design
-1. You shuold design a gammar for your programming language.The example I am using contain 25 rules. The non-terminal variable is on the left the terminal variable is on the right. There is an example below.
+You shuold design a gammar for your programming language.The example I am using contain 25 rules. The non-terminal variable is on the left the terminal variable is on the right. There is an example below.
 
 unary : ID
 			| NUMBER
