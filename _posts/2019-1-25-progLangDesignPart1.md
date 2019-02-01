@@ -12,15 +12,13 @@ comments: false
 
 `BNF style`
 
-```bash
 unary : ID
 			| NUMBER
 			| OPEN_PAREN expression CLOSE_PAREN
 			| STRING
 			| ID OPEN_BRAKET CLOSE_BRAKET
 			| INTEGER
-```
-[========]
+
 [Project Link](https://github.com/scao7/cs403)
 
 more information coming!
