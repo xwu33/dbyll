@@ -64,37 +64,39 @@ MODULUS            "%"
 AND                "&&"
 OR                 "||"
 CARET              "^"
+POUND              "#"
 ```
 ##### reserved keywords
 ```
 keywords : show
          | if
-				 | goto
-				 | else
-				 | until
-				 | call
-				 | var
-				 | func
-				 | loop
-				 | when
+         | goto
+         | else
+         | until
+         | call
+         | var
+         | func
+         | loop
+         | when
 ```
 ##### unary
 ```
 unary : VARIABLE
       | NUMBER
-			| OPREN expression CPREN
-			| STRING
-			| VARIABLE OBRAKET optExpression
-			| NULL
+      | OPREN expression CPREN
+      | STRING
+      | VARIABLE OBRAKET optExpression CBRAKET
+      | NULL
 ```
 ##### operators
 ```
 operator : PLUS
          | SUBTRACT
-				 | TIMES
-				 | DIVIDE
-				 | CARET
+         | TIMES
+         | DIVIDE
+         | CARET
 ```
+
 
 [Project Link](https://github.com/scao7/cs403)
 
