@@ -110,7 +110,7 @@ condition : LESSTAN
           | OR
           | AND
 ```
-##### expression
+##### <span style="color:blue">expression</span>
 ```
 expression : unary
            | unary oprator expression
