@@ -67,7 +67,7 @@ CARET              "^"
 POUND              "#"
 NOT                "!"
 ```
-##### reserved keywords
+##### <span style="color:blue">reserved keywords</span>
 ```
 keywords : show
          | if
@@ -80,7 +80,7 @@ keywords : show
          | loop
          | when
 ```
-##### unary
+##### <span style="color:blue">unary</span>
 ```
 unary : VARIABLE
       | NUMBER
@@ -89,7 +89,7 @@ unary : VARIABLE
       | VARIABLE OBRAKET optExpression CBRAKET
       | NULL
 ```
-##### operators
+##### <span style="color:blue">operators</span>
 ```
 operator : PLUS
          | SUBTRACT
@@ -99,7 +99,7 @@ operator : PLUS
          | ASSIGN
          | condition
 ```
-##### condition
+##### <span style="color:blue">condition</span>
 ```
 condition : LESSTAN
           | GREATERTHAN
@@ -119,72 +119,72 @@ expression : unary
            | functionCallExp
            | variableDefExp
 ```
-##### print expression
+##### <span style="color:blue">print expression</span>
 ```
 printExp : show unary 					 
 ```
-##### expression list
+##### <span style="color:blue">expression list</span>
 ```
 expressionList : expression
                | expression COMMA expressionList
 ```
-##### optional expression
+##### <span style="color:blue">optional expression</span>
 ```
 optExpression : expressionList
               | *empty*
 ```
-##### statement
+##### <span style="color:blue">statement</span>
 ```
 statement : expression SEMICOLON
           | loopStatment
           | ifStatment
 ```
-##### statements
+##### <span style="color:blue">statements</span>
 ```
 statements : statement
            | statement statements
 ```
-##### parameter list
+##### <span style="color:blue">parameter list</span>
 ```
 parameterList : unary
               | unary COMMA parameterList
 ```
-##### optional parameter list
+##### <span style="color:blue">optional parameter list</span>
 ```
 optParameterList : parameterList
                  | *empty*
 ```
-##### function define expression
+##### <span style="color:blue">function define expression</span>
 ```
 functionDefExp : func VARIABLE OPREN optExpression CPREN block
 ```
-##### function call expression
+##### <span style="color:blue">function call expression</span>
 ```
 functionCallExp : call VARIABLE
                 | call VARIABLE OPREN optExpression CPREN
 ```
-##### variable define expression
+##### <span style="color:blue">variable define expression</span>
 ```
 variableDefExp : var VARIABLE
                | var VARIABLE ASSIGN unary
 ```
-##### if statement
+##### <span style="color:blue">if statement</span>
 ```
 ifStatment : if OPREN expression CPREN block
            | elseStatement
 ```
-##### else statement
+##### <span style="color:blue">else statement</span>
 ```
 elseStatement : else block
               | else ifStatment
               | *empty*
 ```
-##### return statement
+##### <span style="color:blue">return statement</span>
 ```
 returnStatement : return SEMICOLON
                 | return unary SEMICOLON
 ```
-##### program
+##### <span style="color:blue">program</span>
 ```
 program : statements
 ```
