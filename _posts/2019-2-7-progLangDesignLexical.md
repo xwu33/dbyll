@@ -19,8 +19,15 @@ There are two tokens in this program, print and 'Hello World!'. The unimportant 
 - scanner
 
 #### lexical analysis approach
-The is a program that read the file you have, it will out put a sequence of lexeme until the end of the line. The approach here is to have a lexeme.c data structure to help me solve the problem.
-
+The is a program that read the file you have, it will out put a sequence of lexeme until the end of the line.
+This is the .h file to define different token names and corresponding with grammar.
+I put partial example here:
+##### <span style="color:blue">types.h</span>
+``````
+#define OPREN "OPREN"
+#define FUNCTION_DEF "func"
+``````
+ The approach here is to have a lexeme.c data structure to help me solve the problem.
 ##### <span style="color:blue">lexeme.c</span>
 ``````
 typdef structure lexeme {
@@ -43,6 +50,8 @@ lexeme* lexVariable();
 lexeme* lexString();
 lexeme* lexUnknown();
 ``````
+##### <span style="color:blue">lexer.h</span>
+
 [Project Link](https://github.com/scao7/cs403)
 
 to be continue! last revise 2/72019
