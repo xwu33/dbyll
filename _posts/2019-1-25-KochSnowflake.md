@@ -6,7 +6,8 @@ tags: [grapics]
 fullview: false
 comments: false
 ---
-This project is a basic divide and recurrent project in Computer Graphics. I use webGL and Javascript as the developing tool.
+#### problem description
+Draw the Koch snowflake
 #### calculate the point for the Koch lines
     function calculatePoint(center, p){
       var angleInDegrees = 60;
