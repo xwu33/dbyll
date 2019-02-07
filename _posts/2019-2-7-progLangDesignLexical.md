@@ -33,9 +33,15 @@ typdef structure lexeme {
 }
 ``````
 Another part is the lexer to determine each token
-##### <span style="color:blue">lexer.c</span>
+##### <span style="color:blue">lexer.h</span>
 ``````
-
+lexeme* lex(void);
+void newLexer(char* file);
+void skipWhiteSpace(); // for comments
+lexeme* lexNumber();
+lexeme* lexVariable();
+lexeme* lexString();
+lexeme* lexUnknown();
 ``````
 [Project Link](https://github.com/scao7/cs403)
 
