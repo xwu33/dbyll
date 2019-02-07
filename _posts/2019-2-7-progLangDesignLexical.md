@@ -51,8 +51,33 @@ lexeme* lexVariable();
 lexeme* lexString();
 lexeme* lexUnknown();
 ``````
-##### <span style="color:blue">lexer.h</span>
+The last part is the main function withc output the lexeme name in a sequence.
+##### <span style="color:blue">scanner.c</span>
+``````
+int scanner(char* file){
+  newLexer(file);
+  lexeme* token = lex();
+  while(strcmp(token -> type, ENDOFPOINT)!=0){
+    if(strcmp(toke,NUMBER)){
+      printf("%s %d\n", token->type, token->integer);
+    }
+    else if(strcmp(token->type, REAL)== 0){
+      printf("%s %lf\n", token->type, token->real);
+    }
+    else {
+      printf("%s %lf\n", token->type, token->string);
+      token = lex();
+    }
+  }
+  return 0;
+}
 
+int main(int argc, char* argv[]){
+  scanner(arv[1]);
+  return 0;
+}
+``````
+After this project we can prepare for parser and recognizer further.
 [Project Link](https://github.com/scao7/cs403)
 
 to be continue! last revise 2/72019
