@@ -31,7 +31,7 @@ The only basic types you need to provide are integer and string and you do not n
 Example:
 ```
 unary : NUMBER
-			| VARIABLE
+	| VARIABLE
 ```
 Left is the general rule, right is the specific. The syle describe how the no-terminal is broken down to a small pieces.
 #### BNF grammar design for my language
