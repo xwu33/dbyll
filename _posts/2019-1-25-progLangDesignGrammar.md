@@ -37,8 +37,8 @@ Left is the general rule, right is the specific. The syle describe how the no-te
 #### BNF grammar design for my language
 
 ##### The Name of the operator and symbol define:
-```
-QUATE              """
+
+>QUATE              """
 ASSIGN             "="
 OPREN              "("
 CPPREN             ")"
@@ -62,9 +62,10 @@ SUBTRACT           "-"
 MODULUS            "%"
 AND                "&&"
 OR                 "||"
-```
+
 ##### unary
 > test
+
 [Project Link](https://github.com/scao7/cs403)
 
 more information coming!
