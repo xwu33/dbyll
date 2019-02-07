@@ -14,6 +14,7 @@ Use WebGL to implement an online program called BuildingBlocks that allows a use
 4.	Magenta square
 5.	Cyan square
 6.	Yellow square
+
 To add a block by holding a number key on the keyboard and left click.
 To move a block by clicking on a block and drag.
 To delete a block by holding a shift key and click on the block.
