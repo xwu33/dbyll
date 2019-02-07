@@ -27,22 +27,17 @@ The task is to build an interpreter for a general purpose programming language o
 
 The only basic types you need to provide are integer and string and you do not need to provide methods for coercing one type to another (although you may find it convenient to do so). The efficiency of your interpreter is not particularly important, as long as you can solve the test problem in a reasonable amount of time. Your language also does not need to support reclamation of memory that is no longer needed. You are to write your program in a statically-typed, imperative language such as C, C++, or Java. Check with me first if you wish to use some other host language.
 
-#### Programming Language Grammars design
-You shuold design a gammar for your programming language.The example I am using contain 25 rules. The non-terminal variable is on the left the terminal variable is on the right. There is an example below.
+#### BNF programming language design style
+Example:
+```
+unary : NUMBER
+			| VARIABLE
+```
+Left is the general rule, right is the specific. The syle describe how the no-terminal is broken down to a small pieces.
+#### BNF grammar design for my language
+```
 
-unary : ID
-<br>
-			| NUMBER
-<br>
-			| OPEN_PAREN expression CLOSE_PAREN
-<br>
-			| STRING
-<br>
-			| ID OPEN_BRAKET CLOSE_BRAKET
-<br>
-			| INTEGER
-
-
+```
 [Project Link](https://github.com/scao7/cs403)
 
 more information coming!
