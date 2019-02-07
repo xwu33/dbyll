@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Programming language design ---- grammars
+title: Programming language design ---- Grammars
 categories: [Programming Language]
 tags: [Programming Language]
 fullview: false
