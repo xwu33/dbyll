@@ -63,6 +63,7 @@ SUBTRACT           "-"
 MODULUS            "%"
 AND                "&&"
 OR                 "||"
+CARET              "^"
 ```
 ##### reserved keywords
 ```
@@ -92,7 +93,7 @@ operator : PLUS
          | SUBTRACT
 				 | TIMES
 				 | DIVIDE
-				 | CARET 
+				 | CARET
 ```
 
 [Project Link](https://github.com/scao7/cs403)
