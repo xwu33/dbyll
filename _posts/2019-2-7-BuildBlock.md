@@ -1,6 +1,6 @@
 ---
 layout: post
-title: webGL for Koch snowflake
+title: webGL basic block operation
 categories: [algorithms]
 tags: [grapics]
 fullview: false
