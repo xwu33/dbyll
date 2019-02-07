@@ -188,6 +188,11 @@ returnStatement : return SEMICOLON
 ```
 program : statements
 ```
+##### <span style="color:blue">block</span>
+```
+block : OBRACE statements CBRACE
+      | OBRACE *empty* CBRACE
+```
 [Project Link](https://github.com/scao7/cs403)
 
 to be continue! last revise 2/72019
