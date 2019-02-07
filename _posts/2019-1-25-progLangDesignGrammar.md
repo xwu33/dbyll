@@ -160,7 +160,29 @@ functionDefExp : func VARIABLE OPREN optExpression CPREN block
 ```
 ##### function call expression
 ```
-
+functionCallExp : call VARIABLE
+                | call VARIABLE OPREN optExpression CPREN
+```
+##### variable define expression
+```
+variableDefExp : var VARIABLE
+               | var VARIABLE ASSIGN unary
+```
+##### if statement
+```
+ifStatment : if OPREN expression CPREN block
+           | elseStatement
+```
+##### else statement
+```
+elseStatement : else block
+              | else ifStatment
+							| *empty*
+```
+##### return statement
+```
+returnStatement : return SEMICOLON
+                | return unary SEMICOLON
 ```
 [Project Link](https://github.com/scao7/cs403)
 
