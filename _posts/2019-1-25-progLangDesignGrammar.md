@@ -37,7 +37,7 @@ Left is the general rule, right is the specific. The syle describe how the no-te
 The lower case name is the non-terminal words, capitalized case is the terminal words.
 #### BNF grammar design for my language
 
-##### The Name of the operator and symbol define:
+##### The name of the operator and symbol define:
 ```
 QUATE              """
 ASSIGN             "="
