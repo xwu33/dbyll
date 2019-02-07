@@ -34,6 +34,7 @@ unary : NUMBER
       | VARIABLE
 ```
 Left is the general rule, right is the specific. The syle describe how the no-terminal is broken down to a small pieces.
+The lower case name is the non-terminal words, capitalized case is the terminal words.
 #### BNF grammar design for my language
 
 ##### The Name of the operator and symbol define:
@@ -63,8 +64,36 @@ MODULUS            "%"
 AND                "&&"
 OR                 "||"
 ```
+##### reserved keywords
+```
+keywords : show
+         | if
+				 | goto
+				 | else
+				 | until
+				 | call
+				 | var
+				 | func
+				 | loop
+				 | when
+```
 ##### unary
-> test
+```
+unary : VARIABLE
+      | NUMBER
+			| OPREN expression CPREN
+			| STRING
+			| VARIABLE OBRAKET optExpression
+			| NULL
+```
+##### operators
+```
+operator : PLUS
+         | SUBTRACT
+				 | TIMES
+				 | DIVIDE
+				 | CARET 
+```
 
 [Project Link](https://github.com/scao7/cs403)
 
