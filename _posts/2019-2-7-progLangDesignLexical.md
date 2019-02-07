@@ -30,6 +30,11 @@ typdef structure lexeme {
   struct lexeme* right;// reserved for parsing
 }
 ```
+Another part is the lexer to determine each token 
+##### <span style="color:blue">lexer.c</span>
+``````
+
+```
 [Project Link](https://github.com/scao7/cs403)
 
 to be continue! last revise 2/72019
