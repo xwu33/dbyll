@@ -96,8 +96,8 @@ operator : PLUS
          | TIMES
          | DIVIDE
          | CARET
-				 | ASSIGN
-				 | condition
+         | ASSIGN
+         | condition
 ```
 ##### condition
 ```
