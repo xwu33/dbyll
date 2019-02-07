@@ -23,3 +23,5 @@ To delete a block by holding a shift key and click on the block.
 2. select blocks
 3. re-render the canvas
 4. delete blocks
+
+[Project Link](https://scao7.github.io/cs435/project2/Buildingblocks.html)
