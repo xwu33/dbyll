@@ -106,9 +106,9 @@ condition : LESSTAN
           | GREATEROREQUA
           | LESSOREQUAL
           | NOT
-					| EQUALS
-					| OR
-					| AND
+          | EQUALS
+          | OR
+          | AND
 ```
 ##### expression
 ```
