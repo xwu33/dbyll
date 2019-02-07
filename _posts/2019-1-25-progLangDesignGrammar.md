@@ -35,8 +35,33 @@ unary : NUMBER
 ```
 Left is the general rule, right is the specific. The syle describe how the no-terminal is broken down to a small pieces.
 #### BNF grammar design for my language
-```
 
+The Name of the operator and symbol define:
+```
+QUATE              """
+ASSIGN             "="
+OPREN              "("
+CPPREN             ")"
+OBRACE             "{"
+CBRACE             "}"
+OBRAKET            "[ "  
+CBRAKET            "]"
+SEMICOLON          ";"
+COLON              ":"
+COMMA              ","
+EQUALS             "=="
+NOTEQUALS          "!="
+LESSTAN            "<"
+GREATERTHAN        ">"
+LESSOREQUAL        "<="
+GREATEROREQUAL     ">="
+PLUS               "+"
+TIMES              "*"
+DIVIDE             "/"
+SUBTRACT           "-"
+MODULUS            "%"
+AND                "&&"
+OR                 "||"
 ```
 [Project Link](https://github.com/scao7/cs403)
 
