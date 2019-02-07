@@ -65,6 +65,7 @@ AND                "&&"
 OR                 "||"
 CARET              "^"
 POUND              "#"
+NOT                "!"
 ```
 ##### reserved keywords
 ```
@@ -95,9 +96,72 @@ operator : PLUS
          | TIMES
          | DIVIDE
          | CARET
+				 | ASSIGN
+				 | condition
+```
+##### condition
+```
+condition : LESSTAN
+          | GREATERTHAN
+          | GREATEROREQUA
+          | LESSOREQUAL
+          | NOT
+					| EQUALS
+					| OR
+					| AND
+```
+##### expression
+```
+expression : unary
+           | unary oprator expression
+           | printExp
+           | functionDefExp
+           | functionCallExp
+           | variableDefExp
+```
+##### print expression
+```
+printExp : show unary 					 
+```
+##### expression list
+```
+expressionList : expression
+               | expression COMMA expressionList
+```
+##### optional expression
+```
+optExpression : expressionList
+              | *empty*
+```
+##### statement
+```
+statement : expression SEMICOLON
+          | loopStatment
+          | ifStatment
+```
+##### statements
+```
+statements : statement
+           | statement statements
+```
+##### parameter list
+```
+parameterList : unary
+              | unary COMMA parameterList
+```
+##### optional parameter list
+```
+optParameterList : parameterList
+                 | *empty*
+```
+##### function define expression
+```
+functionDefExp : func VARIABLE OPREN optExpression CPREN block
+```
+##### function call expression
 ```
 
-
+```
 [Project Link](https://github.com/scao7/cs403)
 
 more information coming!
