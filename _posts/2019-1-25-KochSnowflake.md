@@ -6,7 +6,7 @@ tags: [grapics]
 fullview: false
 comments: false
 ---
-#### problem description
+#### Problem Description
 Draw the Koch snowflake
 #### calculate the point for the Koch lines
     function calculatePoint(center, p){
