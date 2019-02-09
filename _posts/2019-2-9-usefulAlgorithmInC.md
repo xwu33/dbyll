@@ -1,21 +1,21 @@
 ---
 layout: post
-title: 一些有用的C的数据结构跟算法
+title: Some useful function and data structure in C
 categories: [Programming Language]
 tags: [Programming Language][algorithms]
 fullview: false
 comments: false
 ---
 
-#### 问题描述
-因为在面试的中间发现，用C语言写代码比用其他语言要吃亏一些，所以在这篇文章中间我想要罗列出一些有用C语言中的function。如果C语言标准库中没有，C++标准库中有的。 我这里会给出代码和算法介绍来方便以后面试以及用C解决问题。
+#### Problem Description
+Form some coding problem in the interview, I notice that it is harder for a person to use C to finish one question. The standard library in C is much less than C++, Java, Python and any other language. I want to document several method and function that included in C++ library but not in C library.
 
-#### 排序函数以及算法
+#### Sorting Algorithms
 #### <span style="color:blue">Bubble </span>
 ``````
 
 ``````
-#### Divide conquer
+#### Divide Conquer Problems
 
 ``````
 
