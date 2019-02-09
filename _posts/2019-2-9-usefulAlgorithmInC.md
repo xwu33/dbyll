@@ -2,7 +2,7 @@
 layout: post
 title: Some useful function and data structure in C
 categories: [Programming Language]
-tags: [Programming Language][algorithms]
+tags: [Programming Language, algorithms]
 fullview: false
 comments: false
 ---
