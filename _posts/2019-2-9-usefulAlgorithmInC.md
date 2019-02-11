@@ -8,10 +8,12 @@ comments: false
 ---
 #### Problem Description
 Form some coding problem in the interview, I notice that it is harder for a person to use C to finish one question. The standard library in C is much less than C++, Java, Python and any other language. I want to document several method and function that included in C++ library but not in C library.
+#### String Operation Functions C++ 
+##### <span style="color:blue">string </span>
+``````
+
+``````
 #### String Operation Functions C
-``````
-``````
-#### String Operation Functions C++
 ``````
 ``````
 #### Sorting Algorithms
