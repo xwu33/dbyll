@@ -30,7 +30,7 @@ I put partial example here:
 ``````
  The approach here is to have a lexeme.c data structure to help me solve the problem.
 ##### <span style="color:blue">lexeme.c</span>
-``````
+```c
 typdef structure lexeme {
   char* type;
   char* string;
@@ -39,10 +39,10 @@ typdef structure lexeme {
   struct lexeme* left; // reserved for parsing
   struct lexeme* right;// reserved for parsing
 }
-``````
+```
 Another part is the lexer to determine each token
 ##### <span style="color:blue">lexer.h</span>
-``````
+```
 lexeme* lex(void);
 void newLexer(char* file);
 void skipWhiteSpace(); // for comments
@@ -53,7 +53,7 @@ lexeme* lexUnknown();
 ``````
 The last part is the main function withc output the lexeme name in a sequence.
 ##### <span style="color:blue">scanner.c</span>
-``````
+```c
 int scanner(char* file){
   newLexer(file);
   lexeme* token = lex();
@@ -76,7 +76,7 @@ int main(int argc, char* argv[]){
   scanner(arv[1]);
   return 0;
 }
-``````
+```
 After this project we can prepare for parser and recognizer further.
 [Project Link](https://github.com/scao7/cs403)
 
