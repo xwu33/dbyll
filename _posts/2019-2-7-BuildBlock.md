@@ -2,7 +2,7 @@
 layout: post
 title: webGL basic block operation
 categories: [algorithms]
-tags: [grapics]
+tags: [Graphics]
 fullview: false
 comments: false
 ---
