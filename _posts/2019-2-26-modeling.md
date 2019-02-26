@@ -1,8 +1,8 @@
 ---
 layout: post
 title: webGL 3D Modeling and Transformation
-categories: [Programming Language]
-tags: [Programming Language]
+categories: [Graphics]
+tags: [Graphics]
 fullview: false
 comments: false
 ---
