@@ -57,7 +57,6 @@ for (var lo = 0; lo < 12; lo++) {
   printLetter(lo);
   modelViewMatrix = mult(modelViewMatrix, translate(4, 0.0, 0.0));
 }
-}
 ```
 #### parser paragraph
 parsering the input paragraph and make delay
@@ -86,5 +85,5 @@ var intervalID = window.setInterval(function(){
 
 }, 1000);
 ```
-
+click the project link to see the demo
 [Project Link](https://scao7.github.io/cs435/project3/modeling.html)
