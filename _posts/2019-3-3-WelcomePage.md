@@ -6,4 +6,4 @@ tags: [WelcomePage]
 fullview: true
 comments: false
 ---
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/T_ehwC5PnNA/0.jpg)](https://www.youtube.com/watch?v=T_ehwC5PnNA)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/p2DXwjlFAi0/0.jpg)](https://www.youtube.com/watch?v=p2DXwjlFAi0)
