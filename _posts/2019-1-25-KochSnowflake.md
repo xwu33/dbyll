@@ -2,7 +2,7 @@
 layout: post
 title: webGL for Koch snowflake
 categories: [algorithms]
-tags: [grapics]
+tags: [Graphics]
 fullview: false
 comments: false
 ---
