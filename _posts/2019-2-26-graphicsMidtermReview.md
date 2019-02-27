@@ -27,7 +27,7 @@ form vertices to pixels
 
 ##### <span style="color:blue">webGL Organization</span>
 
-![image info](https://github.com/scao7/dbyll/tree/gh-pages/assets/media/graphics/Picture1.jpg)
+![image info](../assets/media/graphics/Picture1.jpg)
 
 #### vertex and fragment shaders
 ##### <span style="color:blue">vertex shaders</span>
