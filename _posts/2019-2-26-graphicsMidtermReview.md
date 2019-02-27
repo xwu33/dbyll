@@ -27,7 +27,7 @@ form vertices to pixels
 
 ##### <span style="color:blue">webGL Organization</span>
 
-
+![image info](assets/media/graphics/Picture1.jpg)
 
 #### Instance Transformation
 
