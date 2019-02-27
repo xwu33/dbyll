@@ -40,9 +40,8 @@ void main()
     gl_Position = vPosition;
 }
 </script>
-
 ```
-##### <span style="color:blue">vertex shaders</span>
+##### <span style="color:blue">fragment shaders</span>
 ```JavaScript
 <script id="fragment-shader" type="x-shader/x-fragment">
 precision mediump float;
