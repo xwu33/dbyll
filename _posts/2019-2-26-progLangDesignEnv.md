@@ -6,6 +6,15 @@ tags: [Programming Language]
 fullview: false
 comments: false
 ---
+#### Problem Description
+The environment is a tree to store all the value we need for future use.
+In the environment file it will have five basic functions
+
+- create
+- extend
+- lookup
+- insert
+- update
 
 #### functions
 ##### <span style="color:blue"> function define </span>
