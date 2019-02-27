@@ -27,7 +27,33 @@ form vertices to pixels
 
 ##### <span style="color:blue">webGL Organization</span>
 
-![image info](assets/media/graphics/Picture1.jpg)
+![image info](./assets/media/graphics/Picture1.jpg)
+
+#### vertex and fragment shaders
+##### <span style="color:blue">vertex shaders</span>
+```JavaScript
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;
+
+void main()
+{
+    gl_Position = vPosition;
+}
+</script>
+
+```
+##### <span style="color:blue">vertex shaders</span>
+```JavaScript
+<script id="fragment-shader" type="x-shader/x-fragment">
+precision mediump float;
+
+void main()
+{
+    gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+}
+</script>
+
+```
 
 #### Instance Transformation
 
