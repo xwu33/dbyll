@@ -27,7 +27,7 @@ form vertices to pixels
 
 ##### <span style="color:blue">webGL Organization</span>
 
-![image info](dbyll/assets/media/graphics/Picture1.jpg)
+![image info](../assets/media/graphics/Picture1.jpg)
 
 #### vertex and fragment shaders
 ##### <span style="color:blue">vertex shaders</span>
@@ -66,7 +66,9 @@ var canvas = document.getElementById( "gl-canvas" );
 var gl = WebGLUtils.setupWebGL( canvas );
 ```
 ##### <span style="color:blue">InitShaders.js</span>
-![init shaders](./assets/media/graphics/Picture1.jpg)
+![init shaders](../assets/media/graphics/Picture1.jpg)
+##### <span style="color:blue">Send Data to the GPU</span>
+
 #### Instance Transformation
 
 ```JavaScript
