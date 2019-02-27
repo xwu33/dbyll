@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphics Mid Term review concepts
+title: Graphics Midterm review concepts
 categories: [Graphics, exams]
 tags: [Graphics]
 fullview: false
@@ -27,7 +27,7 @@ form vertices to pixels
 
 ##### <span style="color:blue">webGL Organization</span>
 
-![image info](../assets/media/graphics/Picture1.jpg)
+![image info](https://github.com/scao7/dbyll/tree/gh-pages/assets/media/graphics/Picture1.jpg)
 
 #### vertex and fragment shaders
 ##### <span style="color:blue">vertex shaders</span>
