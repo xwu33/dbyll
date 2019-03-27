@@ -2,7 +2,7 @@
 layout: post
 title: Computer Graphics ---- lighting
 categories: [Graphics]
-tags: [Graphics]
+tags: [Graphics,JavaScript]
 fullview: false
 comments: false
 ---

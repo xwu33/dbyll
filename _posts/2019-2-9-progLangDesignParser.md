@@ -2,7 +2,7 @@
 layout: post
 title: Programming language design ---- Recognizer
 categories: [Programming Language]
-tags: [Programming Language]
+tags: [Programming Language,C]
 fullview: false
 comments: false
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: webGL basic block operation
-categories: [algorithms]
-tags: [Graphics]
+categories: [Graphics]
+tags: [Graphics,JavaScript]
 fullview: false
 comments: false
 ---

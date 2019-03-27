@@ -2,7 +2,7 @@
 layout: post
 title: webGL 3D Modeling and Transformation
 categories: [Graphics]
-tags: [Graphics]
+tags: [Graphics,JavaScript]
 fullview: false
 comments: false
 ---
