@@ -11,7 +11,7 @@ There are two different way to mimic a light on the material. One is vertex shad
 
 Simply saying that, switch from fragment shader to vertex shader just simply do all the calculation in the vertex shader instead of fragment shader by using varying variables.
 #### vertex shader based
-##### <span style="color:blue"> vertex shader 顶点着色器（） </span>
+##### <span style="color:blue"> vertex shader 顶点着色器为主 </span>
 ```javascript
 <script id="vertex-shader" type="x-shader/x-vertex">
   attribute vec4 a_position;
@@ -84,7 +84,7 @@ Simply saying that, switch from fragment shader to vertex shader just simply do 
 ```
 
 #### fragment shader based
-
+##### <span style="color:blue"> fragment shader 片段着色器为主 </span>
 ```javascript
 <script id="vertex-shader" type="x-shader/x-vertex">
 attribute vec4 a_position;
@@ -113,6 +113,7 @@ void main() {
   v_surfaceToView = u_viewWorldPosition - surfaceWorldPosition;
 }
 </script>
+
 
 ```
 [Project Link](https://scao7.github.io/cs435/project4/spotlight.html)
