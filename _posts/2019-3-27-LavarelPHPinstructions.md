@@ -12,9 +12,8 @@ I have been go through the PHP Framework Laravel and notice that there are a lot
 
 #### PHP artisan
 To start the server
-```bash
+```
 PHP artisan serve
-
 ```
 
 #### MariaDB
