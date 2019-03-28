@@ -7,7 +7,8 @@ fullview: false
 comments: false
 ---
 #### Problem Description
-Draw the Koch snowflake
+Draw the Koch snowflake using recursive method!
+
 #### calculate the point for the Koch lines
     function calculatePoint(center, p){
       var angleInDegrees = 60;
