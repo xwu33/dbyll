@@ -6,7 +6,7 @@ tags: [Graphics,JavaScript]
 fullview: false
 comments: false
 ---
-#### problem Description
+#### Problem Description
 Use WebGL to implement an online program called BuildingBlocks that allows a user
 to build something meaningful from the following six building blocks.
 1.	Red disk
