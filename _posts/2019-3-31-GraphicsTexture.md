@@ -31,7 +31,7 @@ main()
 In the HTML file we also need to include the image that we used. I use 512 * 512 pixel images.
 We need to link the image to configure and texture
 ##### <span style="color:blue"> include image</span>
-```HTML
+```html
 <img id = "texImage" src = "SA2011_black.gif" hidden></img>
 <img id = "texImage2" src = "a1.gif" hidden></img>
 <img id = "texImage1" src = "a2.gif" hidden></img>
