@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Computer Graphics ---- lighting
+title: Computer Graphics ---- Lighting
 categories: [Graphics]
 tags: [Graphics,JavaScript]
 fullview: false
