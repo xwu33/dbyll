@@ -14,7 +14,7 @@ We want to draw three walls and put texture on it. At the same time we want to c
 In the vertex shader we didn't change anything, we only need to add texture variable to the fragment shader.
 
 ##### <span style="color:blue"> fragment shader </span>
-```JavaScript
+```javascript
 <script id="fragment-shader" type="x-shader/x-fragment">
 precision mediump float;
 varying vec4 fColor;
@@ -46,7 +46,7 @@ We need to link the image to configure and texture
 In the JavaScript file we need to configure each texture first here is the configure function
 ##### <span style="color:blue"> texture configure function </span>
 
-```JavaScript
+```javascript
 function configureTexture(image) {
   texture = gl.createTexture();
   gl.bindTexture(gl.TEXTURE_2D, texture);
@@ -74,7 +74,7 @@ gl.vertexAttribPointer(vTexCoord, 2, gl.FLOAT, false, 0, 0);
 gl.enableVertexAttribArray(vTexCoord);
 ```
 ##### <span style="color:blue"> get image and configure</span>
-```JavaScript
+```javascript
 image[0] = document.getElementById("texImage");
 image[1] = document.getElementById("texImage1");
 image[2] = document.getElementById("texImage2");
@@ -92,7 +92,7 @@ configureTexture(image[change]);
 ```
 ##### <span style="color:blue"> binding before draws the geometer </span>
 Binding for each object and draw,
-```JavaScript
+```javascript
 function drawTV() {
   var s = scalem(0.8, 0.55, 0.8);
   var instanceMatrix = mult(translate(0.0, 0.32, 0.1), s);
@@ -103,7 +103,7 @@ function drawTV() {
 }
 ```
 ##### <span style="color:blue"> rendering</span>
-```JavaScript
+```javascript
 var render = function () {
   gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
   drawTV();
