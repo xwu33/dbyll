@@ -116,7 +116,7 @@ window.requestAnimFrame(render);
 ```
 ##### 4. delete blocks
 Delete blocks is just check if the cursor in the shape and pop it out from the array.
-```Javascript
+```javascript
 for (var i=Blocks.length-1; i>=0; i--) {	// search from last to first
       if (Blocks[i].isInside(x, y)) {
         // move Blocks[i] to the top
