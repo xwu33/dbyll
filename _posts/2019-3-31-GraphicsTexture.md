@@ -68,7 +68,7 @@ I returned a texture here
 #### Texture Binding
 The last step is binding the texture and and load to the program
 ##### <span style="color:blue"> passing value to fragment shader </span>
-```JavaScript
+```javascript
 var vTexCoord = gl.getAttribLocation(program, "vTexCoord");
 gl.vertexAttribPointer(vTexCoord, 2, gl.FLOAT, false, 0, 0);
 gl.enableVertexAttribArray(vTexCoord);
