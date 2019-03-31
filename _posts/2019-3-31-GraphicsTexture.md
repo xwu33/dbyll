@@ -7,7 +7,7 @@ fullview: false
 comments: false
 ---
 #### Problem Description
-We want to draw three walls and put texture on it. At the same time we want to create a TV that we can change the frame on the screen every 1 second. You are be able to turn on and off the TV.
+We want to draw three walls and put texture on them.At the same time we want to create a TV that we can change the frame on the screen every 1 second. You are able to turn on and off the TV.
 
 
 #### In the vertex and fragment shader
