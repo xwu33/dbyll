@@ -12,4 +12,4 @@ There are some basic font end questions "fork from poetries"
 
 [click for link ](http://blog.poetries.top/FE-Interview-Questions/)
 ##### Framework of web appciation
-![](../assets/media/framwork.jpg)
+![](../assets/media/graphics/framwork.jpg)
