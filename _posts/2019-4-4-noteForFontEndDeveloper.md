@@ -16,5 +16,4 @@ A big picture of a basic web application
 ![](https://shengtingcao.top/assets/media/framwork.jpg)
 
 ##### layout
-##### <span style="color:blue"> problem1 </span>
-How to set the layout of a page with
+[Questions bout layout](https://github.com/poetries/FE-Interview-Questions/blob/master/%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80.md)
