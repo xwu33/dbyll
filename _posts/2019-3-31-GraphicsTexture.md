@@ -122,4 +122,4 @@ var render = function () {
 ```
 
 [Project Link](https://scao7.github.io/cs435/project5/texmap.html)
-[resume link](https://shengtingcao.top/assets/media/resume.jpg")
+[resume link](https://shengtingcao.top/assets/media/resumeShengtingCao.pdf")
