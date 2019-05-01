@@ -5,6 +5,7 @@ categories: [Android Development]
 tags: [Android, Java]
 fullview: false
 comments: false
+shortinfo: true
 ---
 #### Problem Description
 This document is to demonstrate one function in Android Development -- Pick Up Picture from the
