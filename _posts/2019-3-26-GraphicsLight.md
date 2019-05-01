@@ -5,6 +5,7 @@ categories: [Graphics]
 tags: [Graphics,JavaScript]
 fullview: false
 comments: false
+shortinfo: There are two different way to mimic a light on the material. One is vertex shader the other is fragment shader. In this project we need to create a spotlight aiming on a dark square stage. We should be able to switch the different shading method and also moving the light.
 ---
 #### Problem Description
 There are two different way to mimic a light on the material. One is vertex shader the other is fragment shader. In this project we need to create a spotlight aiming on a dark square stage. We should be able to switch the different shading method and also moving the light.

@@ -5,6 +5,7 @@ categories: [Graphics]
 tags: [Graphics,JavaScript]
 fullview: false
 comments: false
+shortinfo: In this project, we need to use webGL to model a 3D screen with display a paragrapgh you will be able to rotate the screen either by using the button on the screen or the arrow key on the keyboard.
 ---
 
 #### Problem Description

@@ -5,6 +5,7 @@ categories: [Programming Language]
 tags: [Programming Language,C]
 fullview: false
 comments: false
+shortinfo: A recognizer is like a souped-up scanner; Like a scanner, it repeatedly calls lex to serve up lexemes. Additionally, it checks each lexeme against a grammar that describes the language in the text being scanned. Ultimately, a recognizer reports whether the entire text is syntactically correct or not.
 ---
 
 #### Problem Description

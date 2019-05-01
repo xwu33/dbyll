@@ -5,6 +5,7 @@ categories: [Graphics]
 tags: [Graphics,JavaScript]
 fullview: false
 comments: false
+shortinfo: Draw the Koch snowflake using recursive method!
 ---
 #### Problem Description
 Draw the Koch snowflake using recursive method!

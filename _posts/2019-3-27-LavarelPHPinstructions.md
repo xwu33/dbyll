@@ -5,6 +5,7 @@ categories: [Web Develop]
 tags: [PHP,Laravel,MariaDB]
 fullview: false
 comments: false
+shortinfo: I have been go through the PHP Framework Laravel and notice that there are a lot of useful command line instructions. But I can't remember them all, So I stared this blog page to keep track with these command and some explanations.
 ---
 #### Problem Description
 I have been go through the PHP Framework Laravel and notice that there are a lot of useful command line instructions. But I can't remember them all, So I stared this blog page to keep track with these command and some explanations.

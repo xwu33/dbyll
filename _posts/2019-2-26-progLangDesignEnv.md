@@ -5,6 +5,8 @@ categories: [Programming Language]
 tags: [Programming Language,C]
 fullview: false
 comments: false
+shortinfo: The environment is a tree to store all the value we need for future use.
+In the environment file it will have five basic functions
 ---
 #### Problem Description
 The environment is a tree to store all the value we need for future use.
