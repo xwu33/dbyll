@@ -21,3 +21,23 @@ First we need have a UI in this project. The directory of the UI is in the "res"
 ![UI Directory](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/UIDir.PNG)
 
 ##### Add ImageView and Button
+In the "activity_main.xml" add a Button like this:
+```HTML
+<Button
+      android:id="@+id/open_picture"
+      style="@style/Base.Widget.AppCompat.Button.Colored"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/open_picture" />
+```
+Also add the ImageView:
+```
+<ImageView
+       android:id="@+id/imageView"
+       android:layout_width="match_parent"
+       android:layout_height="500dp"
+       android:scaleType="fitCenter"
+       android:src="@drawable/sample" />
+```
+#### Implement the interface logic and Pick Up Logic
+Go to directory find the "MainActivity" class
