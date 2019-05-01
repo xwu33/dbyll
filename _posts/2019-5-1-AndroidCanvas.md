@@ -5,7 +5,7 @@ categories: [Android Development]
 tags: [Android, Java]
 fullview: false
 comments: false
-shortinfo: true
+shortinfo: This document is to demonstrate one function in Android Development -- Pick Up Picture from the gallery. This is the first time write about android development, so I would like to illustrate the interface design and interface logic too.
 ---
 #### Problem Description
 This document is to demonstrate one function in Android Development -- Pick Up Picture from the
