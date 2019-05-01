@@ -5,8 +5,7 @@ categories: [Graphics]
 tags: [Graphics,JavaScript]
 fullview: false
 comments: false
-shortinfo: Use WebGL to implement an online program called BuildingBlocks that allows a user
-to build something meaningful blocks.
+shortinfo: Use WebGL to implement an online program called BuildingBlocks that allows a user to build something meaningful blocks.
 ---
 #### Problem Description
 Use WebGL to implement an online program called BuildingBlocks that allows a user
