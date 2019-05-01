@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Android Development ---- Pick Up Picture From Gallery
-categories: [Graphics]
-tags: [Graphics,JavaScript]
+categories: [Android Development]
+tags: [Android, Java]
 fullview: false
 comments: false
 ---
@@ -14,4 +14,4 @@ I used Android Studio to develop my app. It is a mature technology that helps me
 
 #### Create UI
 First we need have a UI in this project. The directory of the UI is in the "res" directory. Find the
-![UI Directory](https://github.com/scao7/dbyll\assets\media\androidRes\UIDir.PNG")
+![UI Directory](https://github.com/scao7/assets/media/androidRes/UIDir.PNG")
