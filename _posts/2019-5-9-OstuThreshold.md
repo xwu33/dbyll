@@ -202,9 +202,38 @@ I defined the two float variable initialed as POSITIVE_INFINITY and NEGATIVE_INF
 I returned the float arrary represent two height value.
 I should post the picture of processing but because of the privacy issue I won't post it until this research period end.
 #### Draw line and display pixel on the image view
+After we have the value of top and bottom. I need to draw a red line on the image and display the pixel value between these two.
+
+```java
+public static void drawHeight(ImageView imgView, Bitmap imageBitmap){
+        Bitmap bitmap = Bitmap.createBitmap(imgView.getWidth(), imgView.getHeight(), Bitmap.Config.ARGB_8888);
+        float scaleFactor = (float) bitmap.getHeight() / (float) imageBitmap.getHeight();
+        float[] points =customizeMethod.ostuCalculateHeight(imageBitmap, scaleFactor);
+
+        Canvas canvas = new Canvas(bitmap);
+        imgView.draw(canvas);
+
+        Paint paint = new Paint();
+        paint.setColor(Color.RED);
+        paint.setStrokeWidth(10);
+
+        float middle = imgView.getWidth() / 2; //x value of the image
+
+        canvas.drawLine(middle, points[0], middle, points[1], paint);
+        String pixelInfo = (int)(points[1] - points[0]) + "pixels";
+
+        paint.setColor(Color.GREEN);
+        paint.setTextSize(40);
+        canvas.drawText(pixelInfo,middle, (points[0] + points[1])/2, paint);
+        //draw line on image
+        imgView.setImageBitmap(bitmap);
+    }
+```
+I create this method to draw the height. There are two variable we need pass in: imgView and imageBitmap. ImageView refers the view you want to put picture, imageBitmap is the original image in Bitmap data structure.
 
 #### Problems remain to solve
 ##### Runtime
 So far, my app works for measure the height of a person in most circumstance. But the runtime is very slow because I put all the calculation in one thread. There are two option to make the calculation fast. The first one is parallel computing. The second is to use the alternative OpenCV solution, it might faster than my solution. So next post I will focus on how to do parallel computing on Android software and how to load OpenCV library and apply the method.
+
 ##### Accurate of measurement
 For my application, there still some in accurate value because of the limitation of Ostu threshold method. If a person waring dark cloth and has white hair the output will be inaccurate. Therefore, to increase the accurate of the measurement. I need implement another image processing method called Image gradient. I will introduce the implementation in next blog post.
