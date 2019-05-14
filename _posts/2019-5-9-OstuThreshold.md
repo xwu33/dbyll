@@ -232,8 +232,8 @@ public static void drawHeight(ImageView imgView, Bitmap imageBitmap){
 I create this method to draw the height. There are two variable we need pass in: imgView and imageBitmap. ImageView refers the view you want to put picture, imageBitmap is the original image in Bitmap data structure.
 
 #### Problems remain to solve
-##### Runtime
+##### <span style="color:blue">Runtime</span>
 So far, my app works for measure the height of a person in most circumstance. But the runtime is very slow because I put all the calculation in one thread. There are two option to make the calculation fast. The first one is parallel computing. The second is to use the alternative OpenCV solution, it might faster than my solution. So next post I will focus on how to do parallel computing on Android software and how to load OpenCV library and apply the method.
 
-##### Accurate of measurement
+##### <span style="color:blue">Accurate of measurement</span>
 For my application, there still some in accurate value because of the limitation of Ostu threshold method. If a person waring dark cloth and has white hair the output will be inaccurate. Therefore, to increase the accurate of the measurement. I need implement another image processing method called Image gradient. I will introduce the implementation in next blog post.
