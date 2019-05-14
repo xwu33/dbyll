@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Development ---- Using Ostu threshold method to measure height
+title: Android Development ---- Ostu threshold for measurement
 categories: [Android Development]
 tags: [Android, Java, Image Processing]
 fullview: false
