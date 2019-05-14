@@ -165,4 +165,46 @@ public static Bitmap ostuConvert(Bitmap original){
 ```
 
 #### Height Calculation
-continue...
+The Height Calculation is just count the pixel in the height. So we can apply the method above and change a little. In the last for loop: "//set binarize pixel" we modify the method as following:
+```java
+    float top =  Float.POSITIVE_INFINITY;
+    float bottom =  Float.NEGATIVE_INFINITY;
+    // set binarize pixel
+    for (int x = 0; x < width; x++) {
+       for (int y = 0; y < height; y++) {
+
+           int fnpx = pxl[x][y];
+           colorPixel = original.getPixel(x, y);
+
+           A = Color.alpha(colorPixel);
+
+           if (fnpx > fth) { //R > fth
+               fnpx = 255;
+           }
+           else {
+               fnpx = 0;
+               if(top > y ){
+                   top = y;
+               }
+
+               if(bottom < y){
+                   bottom = y;
+               }
+
+           }
+       }
+    }
+    float[] pointsY = new float[]{ top * scaleFactor ,bottom * scaleFactor};
+
+    return pointsY;
+```
+I defined the two float variable initialed as POSITIVE_INFINITY and NEGATIVE_INFINITY. When fnpx <= fth begin to calculate the value. Find the minimun role and the maximum role.
+I returned the float arrary represent two height value.
+I should post the picture of processing but because of the privacy issue I won't post it until this research period end.
+#### Draw line and display pixel on the image view
+
+#### Problems remain to solve
+##### Runtime
+So far, my app works for measure the height of a person in most circumstance. But the runtime is very slow because I put all the calculation in one thread. There are two option to make the calculation fast. The first one is parallel computing. The second is to use the alternative OpenCV solution, it might faster than my solution. So next post I will focus on how to do parallel computing on Android software and how to load OpenCV library and apply the method.
+##### Accurate of measurement
+For my application, there still some in accurate value because of the limitation of Ostu threshold method. If a person waring dark cloth and has white hair the output will be inaccurate. Therefore, to increase the accurate of the measurement. I need implement another image processing method called Image gradient. I will introduce the implementation in next blog post.
