@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Development ---- Using Ostu threshold method to get pre-process image
+title: Android Development ---- Using Ostu threshold method to measure height
 categories: [Android Development]
 tags: [Android, Java, Image Processing]
 fullview: false
