@@ -22,6 +22,7 @@ Import the java fold
 
 #### Compare the configure information
 Make sure the  minSdkVersion and targetSdkVersion matches
+
 ![pic3](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic3.PNG)
 
 ![pic4](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic4.PNG)
@@ -33,8 +34,10 @@ File --> Project Structure --> App --> Add dependency --> OpenCV
 ```
 #### Copy library file to App folder
 Copy files in this directory
+
 ![pic5](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic5.PNG)
 Create a folder named "jniLibs" and copy the files under the directory
+
 ![pic6](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic6.PNG)
 
 #### Use the OpenCV library
