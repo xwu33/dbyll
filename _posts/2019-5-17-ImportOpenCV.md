@@ -38,7 +38,7 @@ Copy files in this directory
 
 ![pic5](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic5.PNG)
 
-Create a folder named "jniLibs" and copy the files under the directory
+Create a folder named "jniLibs" and paste the files under the directory
 
 ![pic6](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic6.PNG)
 
