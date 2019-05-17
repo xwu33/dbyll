@@ -112,9 +112,11 @@ When the Intent get result and the request is the pick up code. We can set the i
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if(resultCode == RESULT_OK && requestCode == IMAGE_PICK_CODE){
         imageView.setImageURI(data.getData());
-
-
     }
 }
+```
+The last step is to make sure the cell phone not denied you the first add code to the Manifest file.
+```html
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 ```
