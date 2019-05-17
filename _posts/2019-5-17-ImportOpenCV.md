@@ -18,6 +18,7 @@ Check YouTube link with the video
 File --> New -> Import Module
 ```
 Import the java fold
+
 ![pic2](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic2.PNG)
 
 #### Compare the configure information
