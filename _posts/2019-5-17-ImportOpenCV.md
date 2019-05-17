@@ -24,7 +24,7 @@ Import the java fold
 Make sure the  minSdkVersion and targetSdkVersion matches
 ![pic3](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic2.PNG)
 
-![pic4](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic2.PNG)
+![pic4](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic4.PNG)
 
 #### Add dependency
 
@@ -32,3 +32,26 @@ Make sure the  minSdkVersion and targetSdkVersion matches
 File --> Project Structure --> App --> Add dependency --> OpenCV
 ```
 #### Copy library file to App folder
+Copy files in this directory
+![pic5](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic5.PNG)
+Create a folder named "jniLibs" and copy the files under the directory
+![pic6](https://raw.githubusercontent.com/scao7/dbyll/gh-pages/assets/media/androidRes/pic6.PNG)
+
+#### Use the OpenCV library
+
+```java
+ostu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OpenCVLoader.initDebug();
+                Bitmap originalBitmap = BitmapFactory.decodeResource(getResources(),R.drawable.sample);
+                Mat resultMat = new Mat();
+                Bitmap ouputBitmap = Bitmap.createBitmap(originalBitmap.getWidth(),originalBitmap.getHeight(),Bitmap.Config.RGB_565);
+                Utils.bitmapToMat(originalBitmap,resultMat);
+                Imgproc.cvtColor(resultMat,resultMat,Imgproc.COLOR_RGBA2GRAY,0);
+                Imgproc.threshold(resultMat,resultMat,0,255, Imgproc.THRESH_OTSU);
+                Utils.matToBitmap(resultMat,ouputBitmap);
+                imageView.setImageBitmap(ouputBitmap);
+            }
+        });
+```
