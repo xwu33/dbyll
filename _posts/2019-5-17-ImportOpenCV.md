@@ -8,7 +8,8 @@ comments: false
 shortinfo: From previews blog, I have the method to do the Ostu thresholding individually. This blog is going to talk about an easy way to do Ostu thresholding which is rely on the OpenCV library. I will demonstrate how to import the OpenCV library in Android and how to apply it to image Processing.
 ---
 Check YouTube link with the video
-[YouTube link]()
+[YouTube link first half](https://youtu.be/m7YBiLmEuME)
+[YouTube link last half](https://youtu.be/dFC6cfmfTSI)
 
 #### Download OpenCV SDK
 [OpenCV Release Page](https://opencv.org/releases/)
