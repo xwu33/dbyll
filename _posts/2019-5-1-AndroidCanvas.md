@@ -12,7 +12,7 @@ This document is to demonstrate one function in Android Development -- Pick Up P
 gallery. This is the first time write about android development, so I would like to illustrate
 the interface design and interface logic too.
 
-I have a video about this link: https://youtu.be/z3IAjcwEAb8
+[YouTube Link](https://youtu.be/z3IAjcwEAb8)
 
 #### Tool
 I used Android Studio to develop my app. It is a mature technology that helps me to build app easily.
