@@ -237,3 +237,19 @@ So far, my app works for measure the height of a person in most circumstance. Bu
 
 ##### <span style="color:blue">Accurate of measurement</span>
 For my application, there still some in accurate value because of the limitation of Ostu threshold method. If a person waring dark cloth and has white hair the output will be inaccurate. Therefore, to increase the accurate of the measurement. I need implement another image processing method called Image gradient. I will introduce the implementation in next blog post.
+
+#### Update
+After learning opencv there are a faster way to solve the ostu threshold method. The updated code using OpenCV library. Run time is less than 1s.
+```java
+private void ostuThreshold(){
+    Bitmap bitmap = BitmapFactory.decodeResource(getResources(),images[current_image]);
+    Mat Rgba = new Mat();
+    Mat ostuMat = new Mat();
+    Utils.bitmapToMat(bitmap,Rgba);
+    Imgproc.cvtColor(Rgba,ostuMat,Imgproc.COLOR_RGBA2GRAY,0);
+    Imgproc.threshold(ostuMat,ostuMat,0,255,Imgproc.THRESH_OTSU);
+    Bitmap outputhBitmap = Bitmap.createBitmap(bitmap.getWidth(),bitmap.getHeight(),Bitmap.Config.RGB_565);
+    Utils.matToBitmap(ostuMat,outputhBitmap);
+    imageView.setImageBitmap(outputhBitmap);
+}
+```
