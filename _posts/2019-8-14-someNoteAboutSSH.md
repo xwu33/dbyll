@@ -43,7 +43,7 @@ vim /etc/shadowsocks/config.json
 "timeout":300,
 # 加密算法
 "method":"aes-256-cfb",
-# true 或者 false 开启后能降低延迟
+# true 或者 false 开启后能降低延迟 建议开启
 "fast_open":false
 }
 ```
