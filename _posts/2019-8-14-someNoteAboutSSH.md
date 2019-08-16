@@ -66,3 +66,11 @@ Add two more rule to set the port to what you set and the souce from 0.0.0.0/0 a
 
 #### Best way to connect AWS on windows
 Using bash on windows to connect the AWS will have a lot of problems the best way is to use Putty to connect the a AWS instance. It must be a instance with a .pem file. First convert the .pem file to .ppk file. uplade the .ppk file under SSH -> Auth. Second copy the DNS form AWS and paste to the host name. and open it. It should works fine.
+
+#### Ubuntu 18.04 solving the problem of shadowsocks start error
+如官网中所描述，这是由于在openssl 1.1.0中废弃了 EVP_CIPHER_CTX_cleanup() 函数而引入了 EVE_CIPHER_CTX_reset() 函数所导致的：
+EVP_CIPHER_CTX was made opaque in OpenSSL 1.1.0. As a result, EVP_CIPHER_CTX_reset() appeared and EVP_CIPHER_CTX_cleanup() disappeared. EVP_CIPHER_CTX_init() remains as an alias for EVP_CIPHER_CTX_reset().
+因此，可以通过将 EVP_CIPHER_CTX_cleanup() 函数替换为 EVP_CIPHER_CTX_reset() 函数来解决该问题。具体解决方法如下：
+1、根据错误信息定位到文件 /home/feng/.local/lib/python3.6/site-packages/shadowsocks/crypto/openssl.py 。
+2、搜索 cleanup 并将其替换为 reset 。
+3、重新启动 shadowsocks, 该问题解决。
